@@ -1,0 +1,239 @@
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.clearfix{clear:both;}
+
+body{padding: 0px 10px 0 0;
+	width:auto;
+	margin-left: 60px;
+	margin-right:60px;
+	background-color:#999999;
+	margin-top:60px;
+	margin-bottom:60px;
+}
+
+h1 { color:#FF0000; 
+	font-size:24px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	padding:35px;
+	margin-top:35px;}
+	
+
+ul{list-style: none; 
+	margin: 0px; 
+	padding: 0px;}
+
+#nav { 
+	float: right; 
+	margin: 10px 10px 0 0;
+	clear:right;
+	margin-top:45px;
+	margin-right:50px;
+	
+	
+}
+
+#logo img{ width:350px;
+			display:block;}
+
+#logo { border: 3px solid #000000;
+		width: 30%;
+		padding:20px;
+		margin:40px;
+		float:left;
+		display:block;
+		}
+
+.list li{float: left; 
+	padding: 10px 20px; 
+	font-size: 20px;
+	 color: black; 
+	 font-weight: bold;
+	 list-style-type:none;
+	 border:solid 4px #666666;
+	 padding-right:10px;
+	 border-spacing:4px;
+	 border-radius:10px;
+	 background-color:#CCFFCC;
+	 display:block;
+	 width:auto;
+	 margin-left:10px;
+
+	}
+
+a { text-decoration:none;
+	display:block;}
+.list ul a { text-decoration:none;}
+
+.list ul li:hover{ color:#000033; }
+
+.banner{background-color: white;}
+.banner img{width: 100%;  height: 500px;
+		clear:left;
+		padding-top: 30px;
+}  /* Decendent Selectors */
+
+.container{background-color: white;}
+.container img{width: 1343px; height: 300px;}
+
+.professional{ background: #f9f9f9; 
+	width: 1343px; height: 400px; 
+	background-repeat: no-repeat; 
+	background-position: right; 
+	background-size: 670px 400px;}
+
+.skills{padding: 109px 118px;}
+
+.title{font-weight: bold; 
+	font-size: 25px; 
+	padding: 15px 0px;}
+
+.border{display: table; 
+	width: 100%; 
+	padding: 3px; 
+	border: 0.5px solid #d8d8d8;}
+
+.fill{display: table-cell; 
+	width: 250px; background-color: #0fcac3; 
+	padding: 3px; 
+	margin: 10px 0px; 	
+	border: 0.5px solid #d8d8d8;}
+
+.border{padding: 3px 15px; 
+	background: url("../images/backPercent"); 
+	background-repeat: no-repeat; size: 300px 100px;}
+
+.honey{width:1343px;}
+
+.one{float: left;}
+
+.one img{width: 335.75px; 
+	height: 300px;}
+
+.five{float: left;}
+
+.five img{width: 335.75px; 
+	height: 300px;
+	border: 0px;
+	 padding: 0px; 
+	 margin-top: -4px;}
+
+.load{background-color: #f5f5f5;
+ width: 1343px; 
+ margin-top: -4px;}
+
+.more{font-weight: bold; 
+	font-size: 15px; 
+	text-align: center;
+	 padding:20px 0px; color: black; }
+
+.process{width: 1343px;}
+
+.our{padding: 80px 0px;}
+
+.form{text-align: center; 
+	font-size: 20px; 
+	font-weight: bold;
+	 color: #1a1a1a;}
+
+.season{text-align: center; 
+	font-size: 15px;
+	 padding: 20px 0px;
+	  color: #a2a2a2;}
+
+ 
+ #vid  { width: 100%;
+ 			height: 350px;
+			margin: 50px;
+			padding:50px;}
+ 
+ #footer { background-color:cyan;
+ 			width:auto;
+			height:250px;}
+			
+#footer h2 { color:#000066;
+			font-size:50px;
+			font-family:"Courier New", Courier, monospace;}
+ 
+ #footer a { display:inline;
+ 			text-decoration:none;
+			float:left;
+			margin-top: 40px;
+			}
+			
+#footer ul li { list-style-type:none
+					background-color:#999999;}
+#footer img{ width:90px;
+			margin: 15px;
+			border-radius:70px;
+			background-color:#999900;
+			margin-left:80px;}
+
+#copy { margin-top:25px;}
+
+#copy  { color:#FFFFFF;
+		font-size:35px;
+		font-family:Geneva, Arial, Helvetica, sans-serif;
+		font-style:oblique;}
+		
+#totop { color:#00FFFF;
+	font-size:20px;
+	margin-top:25px;
+	text-transform:uppercase;}
+	
+#totop a:hover {color:#FFFFFF;}
+
+#contact-container { width:auto;
+					height: 700px;
+					background-image:url(../louis-vuitton--1155_LVNOW_VIVIENNE_DI3.jpg);
+					margin-top:60px;
+					margin-bottom:40px;}
+					
+					
+#form { margin-left: 40px;
+		color:#000000;
+		font-size:24px;
+		font-family:"Times New Roman", Times, serif;
+		margin-top:30px;
+		width: 45%;
+		height:300px;
+		border: 5px solid #000000;
+		float:left;
+		}
+#form table { margin-left:40px;
+				margin-top:40px;
+				}
+#side-image {
+			float:right;
+			width:45%;
+			margin-top:25px;
+			margin-left:50px;}
+#side-image img { width:70%;}
+#contact-container p { color:#000033;
+						clear:both;
+						margin-top:20px;
+						font-size:20px;
+						margin-left:30px;
+						text-transform:uppercase;}
+.foot-img { margin-top:60px;
+			margin-bottom: 40px; }
+			
+#contact-container ol li { margin-left: 40px; color:#660033; font-size:18px; }
+#contact-container h3 { color:#000066; font-size:24px; margin-left:20px; margin-top:35px; }
+
+#about img{ width:100%; height:360px;}
+
+ /* End */
